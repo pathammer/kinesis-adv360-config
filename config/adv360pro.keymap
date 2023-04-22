@@ -17,6 +17,13 @@
 #define FN2 3
 #define MOD 4
 
+&mt {
+  quick-tap-ms = <100>;
+  global-quick-tap;
+  flavor = "tap-preferred";
+  tapping-term-ms = <170>;
+};
+
 / {
     /* remove unused keys from layout and move thumb cluster to bottom */
     chosen {
