@@ -85,7 +85,7 @@
                 ___             ___          ___          ___          ___             ___          &bootloader      &bootloader ___          ___              ___          ___          ___          ___
                 ___             ___          ___          ___          ___             ___          ___              ___         ___          ___              ___          ___          ___          ___
                 ___             ___          ___          ___          ___             ___                                       ___          ___              ___          ___          ___          ___
-                ___             ___          ___          &bl BL_INC   &bl BL_DEC                                                             &kp C_VOL_UP     &kp C_VOL_DN &kp C_MUTE   ___          ___
+                &tog MOD        ___          ___          &bl BL_INC   &bl BL_DEC                                                             &kp C_VOL_UP     &kp C_VOL_DN &kp C_MUTE   ___          &tog BASE
                                                                      &bt BT_CLR      &bt BT_CLR                                &bt BT_CLR   &bt BT_CLR
                                                                      &rgb_ug RGB_TOG &bl BL_TOG   ___              ___         &bl BL_TOG   &rgb_ug RGB_TOG
                                                                                                   ___              ___
