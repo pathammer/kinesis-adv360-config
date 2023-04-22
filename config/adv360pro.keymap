@@ -56,7 +56,7 @@
             bindings = <
                 &kp F1          &kp F2    &kp F3    &kp F4           &kp F5    &kp F6    ___            ___       &kp F7    &kp F8           &kp F9      &kp F10   &kp F11   &kp F12
                 ___             ___       ___       ___              ___       ___       ___            ___       ___       &kp LA(LEFT)         &kp LA(F10)     &kp LA(RIGHT)       ___       ___
-                ___             ___       ___       ___              ___       ___       ___            ___       &kp LA(LEFT) &kp LC(PG_DN)      &kp LC(PG_UP)   &kp LA(RIGHT) ___       ___
+                ___             ___       ___       ___              ___       ___       ___            ___       &kp LA(LEFT) &kp LC(PG_DN)      &kp LC(PG_UP)   &kp LSA(RIGHT) ___       ___
                 ___             ___       ___       ___              ___       ___       ___            ___       ___       ___              ___         ___       ___       ___
                 ___             ___       ___       ___              ___       ___                                ___       ___              ___         ___       ___       ___
                 ___             ___       ___       ___              ___                                          &kp LA(J) &kp LA(K)        &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))       ___
