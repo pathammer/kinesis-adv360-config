@@ -68,15 +68,15 @@
 
         fn2 {
             bindings = <
-                ___             ___       ___       ___              ___       ___       ___            ___       ___       ___              ___         ___       ___       ___
-                ___             ___       ___       ___              ___       ___       ___            ___       ___       &mkp MB4                &mmv MOVE_UP            &mkp MB5       ___       ___
-                ___             ___       ___       ___              ___       ___       ___            ___       ___       &mmv MOVE_LEFT              &mmv MOVE_DOWN  &mmv MOVE_RIGHT       ___       ___
+                ___             ___       ___       ___              ___       ___       ___            ___       ___       ___              &mwh SCROLL_LEFT         ___       &mwh SCROLL_RIGHT       ___
+                ___             ___       ___       ___              ___       ___       ___            ___       &mwh SCROLL_UP     &mkp MB4      &mmv MOVE_UP            &mkp MB5       ___       ___
+                ___             ___       ___       ___              ___       ___       ___            ___       &mwh SCROLL_DOWN       &mmv MOVE_LEFT              &mmv MOVE_DOWN  &mmv MOVE_RIGHT       ___       ___
                 ___             ___       ___       ___              ___       ___       ___            ___       ___       ___              ___         ___       ___       ___
                 ___             ___       ___       ___              ___       ___                                ___       ___              ___         ___       ___       ___
                 ___             ___       ___       ___              ___                                                    ___              ___         ___       ___       ___
                                                                      ___       ___                                ___       ___
-                                                                     ___       ___       ___            ___       &mkp RCLK       &mkp LCLK
-                                                                                         ___            ___
+                                                                     ___       ___       ___            &mkp MB3       &mkp MB2       &mkp MB1
+                                                                                         ___            &mkp MB3
             >;
         };
 
