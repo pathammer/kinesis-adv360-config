@@ -18,12 +18,14 @@
 #define MOD 4
 
 /* Mouse settings /*
-//Both mouse movement and scrolling have independently configurable acceleration profiles with three parameters: delay before movement, time to max speed and the acceleration exponent.
-//The exponent is usually set to 0 for constant speed, 1 for uniform acceleration or 2 for uniform jerk.
+/*Both mouse movement and scrolling have independently configurable acceleration profiles with three parameters: delay before movement, time to max speed and the acceleration exponent.
+//The exponent is usually set to 0 for constant speed, 1 for uniform acceleration or 2 for uniform jerk. */
+
 &mmv {
     time-to-max-speed-ms = <300>;
     acceleration-exponent=<2>;
 };
+
 &mwh {
     acceleration-exponent=<.5>;
     time-to-max-speed-ms = <500>;
@@ -31,7 +33,7 @@
 
 &mt {
   quick-tap-ms = <100>;
-  // global-quick-tap;
+  /* global-quick-tap; */
   flavor = "balanced";
   tapping-term-ms = <200>;
 };
