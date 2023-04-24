@@ -119,7 +119,7 @@
                 ___             &kp F1    &kp F2    &kp F3           &kp F4   &kp F5     ___            &kp F12   &kp F6    &kp F7    &kp F8    &kp F9      &kp F10   &kp F11
                 ___             ___       ___       ___              ___       ___       ___            ___       ___       &kp LA(LEFT)         &kp LA(F10)     &kp LA(RIGHT)       ___       ___
                 ___             ___       ___       ___              ___       ___       ___            ___       &kp LS(LA(LEFT)) &kp LC(PG_DN)      &kp LC(PG_UP)   &kp LS(LA(RIGHT)) ___       ___
-                ___             ___       ___       ___              ___       ___                                ___       ___              ___         ___       ___       ___
+                ___             ___       ___       ___              ___       ___                                ___       ___              ___         &kp LC(W)       ___       ___
                 ___             ___       ___       ___              ___                                          &kp LA(J) &kp LA(K)        &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))       ___
                                                                      ___       ___                                ___       ___
                                                                      ___       ___       ___            ___       ___       ___
