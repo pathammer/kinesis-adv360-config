@@ -21,20 +21,20 @@
 /*Both mouse movement and scrolling have independently configurable acceleration profiles with three parameters: delay before movement, time to max speed and the acceleration exponent.
 //The exponent is usually set to 0 for constant speed, 1 for uniform acceleration or 2 for uniform jerk. */
 
-#define MOVE_UP MOVE_VERT(-1500)
-#define MOVE_DOWN MOVE_VERT(1500)
-#define MOVE_LEFT MOVE_HOR(-1500)
-#define MOVE_RIGHT MOVE_HOR(1500)
+#define MOVE_UP MOVE_VERT(-1350)
+#define MOVE_DOWN MOVE_VERT(1350)
+#define MOVE_LEFT MOVE_HOR(-1350)
+#define MOVE_RIGHT MOVE_HOR(1350)
 
 &mmv {
-    time-to-max-speed-ms = <400>;
-    acceleration-exponent = <2>;
+    time-to-max-speed-ms = <300>;
+    acceleration-exponent = <1>;
 };
 
-#define SCROLL_UP SCROLL_VERT(15)
-#define SCROLL_DOWN SCROLL_VERT(-15)
-#define SCROLL_LEFT SCROLL_HOR(-15)
-#define SCROLL_RIGHT SCROLL_HOR(15)
+#define SCROLL_UP SCROLL_VERT(13)
+#define SCROLL_DOWN SCROLL_VERT(-13)
+#define SCROLL_LEFT SCROLL_HOR(-13)
+#define SCROLL_RIGHT SCROLL_HOR(13)
 
 &mwh {
     time-to-max-speed-ms = <180>;
