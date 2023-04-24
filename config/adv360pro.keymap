@@ -21,23 +21,23 @@
 /*Both mouse movement and scrolling have independently configurable acceleration profiles with three parameters: delay before movement, time to max speed and the acceleration exponent.
 //The exponent is usually set to 0 for constant speed, 1 for uniform acceleration or 2 for uniform jerk. */
 
-#define MOVE_UP MOVE_VERT(-800)
-#define MOVE_DOWN MOVE_VERT(800)
-#define MOVE_LEFT MOVE_HOR(-800)
-#define MOVE_RIGHT MOVE_HOR(800)
+#define MOVE_UP MOVE_VERT(-1500)
+#define MOVE_DOWN MOVE_VERT(1500)
+#define MOVE_LEFT MOVE_HOR(-1500)
+#define MOVE_RIGHT MOVE_HOR(1500)
 
 &mmv {
     time-to-max-speed-ms = <800>;
     acceleration-exponent = <2>;
 };
 
-#define SCROLL_UP SCROLL_VERT(20)
-#define SCROLL_DOWN SCROLL_VERT(-20)
-#define SCROLL_LEFT SCROLL_HOR(-20)
-#define SCROLL_RIGHT SCROLL_HOR(20)
+#define SCROLL_UP SCROLL_VERT(15)
+#define SCROLL_DOWN SCROLL_VERT(-15)
+#define SCROLL_LEFT SCROLL_HOR(-15)
+#define SCROLL_RIGHT SCROLL_HOR(15)
 
 &mwh {
-    time-to-max-speed-ms = <200>;
+    time-to-max-speed-ms = <300>;
     acceleration-exponent = <1>;
 };
 
@@ -67,8 +67,8 @@
         label = "ZM_qt_mt";
         #binding-cells = <2>;
         flavor = "balanced";
-        tapping-term-ms = <200>;
-        quick-tap-ms = <125>;
+        tapping-term-ms = <500>;
+        quick-tap-ms = <500>;
         bindings = <&kp>, <&kp>;
         };
     };
