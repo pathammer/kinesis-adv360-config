@@ -83,11 +83,11 @@
 
         base_layer {
             bindings = <
-                &kp EQUAL      &kp N1    &kp N2    &kp N3           &kp N4          &kp N5      &kp LBRC       &kp RBRC        &kp N6          &kp N7    &kp N8    &kp N9    &kp N0    &kp MINUS
-                &kp TAB        &kp Q     &kp W     &kp E            &kp R           &kp T       &kp LBKT       &kp RBKT        &kp Y           &kp U     &kp I     &kp O     &kp P     &kp BSLH
-                &kp ESC        &kp A     &kp S     &kp D            &kp F           &kp G       &kp HYP        &kp HYP         &kp H           &kp J     &kp K     &kp L     &kp SEMI  &kp SQT
+                &kp EQUAL      &kp N1    &kp N2    &kp N3           &kp N4          &kp N5      &tog MOD       &kp F12        &kp N6          &kp N7    &kp N8    &kp N9    &kp N0    &kp MINUS
+                &lt KEYPAD TAB &kp Q     &kp W     &kp E            &kp R           &kp T       &kp LBKT       &kp RBKT        &kp Y           &kp U     &kp I     &kp O     &kp P     &kp BSLH
+                &kp ESC        &kp A     &kp S     &kp D            &kp F           &kp G       &kp LBRC       &kp RBRC         &kp H           &kp J     &kp K     &kp L     &kp SEMI  &kp SQT
                 &mt LSHFT LPAR &kp Z     &kp X     &kp C            &kp V           &kp B                                      &kp N           &kp M     &kp COMMA &kp DOT   &kp FSLH  &mt RSHFT RPAR
-                &tog MOD       &kp GRAVE &kp UNDER &lt FN LEFT      &lt FN2 RIGHT                                              &lt FN2 UP      &lt FN DOWN  &kp LBKT  &kp RBKT  &tog MOD
+                &none       &kp GRAVE &kp UNDER &lt FN LEFT      &lt FN2 RIGHT                                              &lt FN2 UP      &lt FN DOWN  &kp LBKT  &kp RBKT  &none
                                                                     &kp TAB         &kp LALT                                   &kp RCTRL       &kp RGUI
                                                                     &mqt LCTRL BSPC  &mqt MEH DEL  &kp HOME       &kp PG_UP      &mqt RALT RET    &kp SPACE
                                                                                                    &kp END        &kp PG_DN
