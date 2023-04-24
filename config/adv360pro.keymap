@@ -21,19 +21,29 @@
 /*Both mouse movement and scrolling have independently configurable acceleration profiles with three parameters: delay before movement, time to max speed and the acceleration exponent.
 //The exponent is usually set to 0 for constant speed, 1 for uniform acceleration or 2 for uniform jerk. */
 
+#define MOVE_UP MOVE_VERT(-800)
+#define MOVE_DOWN MOVE_VERT(800)
+#define MOVE_LEFT MOVE_HOR(-800)
+#define MOVE_RIGHT MOVE_HOR(800)
+
 &mmv {
     time-to-max-speed-ms = <300>;
-    acceleration-exponent=<2>;
+    acceleration-exponent = <2>;
 };
 
+#define SCROLL_UP SCROLL_VERT(20)
+#define SCROLL_DOWN SCROLL_VERT(-20)
+#define SCROLL_LEFT SCROLL_HOR(-20)
+#define SCROLL_RIGHT SCROLL_HOR(20)
+
 &mwh {
-    acceleration-exponent=<1>;
-    time-to-max-speed-ms = <500>;
+    time-to-max-speed-ms = <200>;
+    acceleration-exponent = <1>;
 };
 
 &mt {
   quick-tap-ms = <100>;
-  /* global-quick-tap; */
+  global-quick-tap;
   flavor = "balanced";
   tapping-term-ms = <200>;
 };
@@ -89,14 +99,14 @@
 
         fn2 {
             bindings = <
-                ___             ___       ___       ___              ___       ___       ___            ___       ___            &mwh SCROLL_LEFT         ___       &mwh SCROLL_RIGHT       ___     ___
-                ___             ___       ___       ___              ___       ___       ___            ___       &mwh SCROLL_UP     &mkp MB4      &mmv MOVE_UP            &mkp MB5       ___       ___
-                ___             ___       ___       ___              ___       ___       ___            ___       &mwh SCROLL_DOWN       &mmv MOVE_LEFT              &mmv MOVE_DOWN  &mmv MOVE_RIGHT       ___       ___
-                ___             ___       ___       ___              ___       ___       ___            ___       ___       ___              ___         ___       ___       ___
-                ___             ___       ___       ___              ___       ___                                ___       ___              ___         ___       ___       ___
-                ___             ___       ___       ___              ___                                                    ___              ___         ___       ___       ___
-                                                                     ___       ___                                ___       ___
-                                                                     ___       ___       ___            &mkp MB3       &mkp MB2       &mkp MB1
+                ___             ___       ___       ___              ___       ___       ___            ___       ___              &mwh SCROLL_LEFT ___            &mwh SCROLL_RIGHT ___       ___
+                ___             ___       ___       ___              ___       ___       ___            ___       &mwh SCROLL_UP   &mkp MB4         &mmv MOVE_UP   &mkp MB5          ___       ___
+                ___             ___       ___       ___              ___       ___       ___            ___       &mwh SCROLL_DOWN &mmv MOVE_LEFT   &mmv MOVE_DOWN &mmv MOVE_RIGHT   ___       ___
+                ___             ___       ___       ___              ___       ___       ___            ___       ___              ___              ___            ___               ___       ___
+                ___             ___       ___       ___              ___       ___                                ___              ___              ___            ___               ___       ___
+                ___             ___       ___       ___              ___                                                           ___              ___            ___               ___       ___
+                                                                     ___       ___                                ___              ___
+                                                                     ___       ___       ___            &mkp MB3  &mkp MB2         &mkp LCLK
                                                                                          ___            &mkp MB3
             >;
         };
