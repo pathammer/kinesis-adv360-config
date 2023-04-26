@@ -91,7 +91,7 @@
         base_layer {
             bindings = <
                 &kp EQUAL      &kp N1    &kp N2    &kp N3           &kp N4          &kp N5      &tog MOD       &tog MOD       &kp N6          &kp N7      &kp N8    &kp N9    &kp N0    &kp MINUS
-                &lt KEYPAD TAB &kp Q     &kp W     &kp E            &kp R           &kp T       &kp LBKT       &kp under_bslh       &kp Y           &kp U       &kp I     &kp O     &kp P     &kp BSLH
+                &lt KEYPAD TAB &kp Q     &kp W     &kp E            &kp R           &kp T       &kp LBKT       &under_bslh       &kp Y           &kp U       &kp I     &kp O     &kp P     &kp BSLH
                 &kp ESC        &kp A     &kp S     &kp D            &kp F           &kp G       &kp LBRC       &kp RBRC       &kp H           &kp J       &kp K     &kp L     &kp SEMI  &kp SQT
                 &smart_shft    &kp Z     &kp X     &kp C            &kp V           &kp B                                     &kp N           &kp M       &kp COMMA &kp DOT   &kp FSLH  &mt RSHFT RPAR
                 &kp PSCRN      &kp GRAVE &kp LS(INS) &lt FN LEFT    &lt FN2 RIGHT                                                             &lt FN2 UP      &lt FN DOWN &kp LBKT  &kp RBKT  &kp RS(F10)
