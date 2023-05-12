@@ -90,11 +90,11 @@
 
     base_layer {
         bindings = <
-&kp EQUAL	&kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp PSCRN	&kp RS(F10)	&kp N6	&kp N7	&kp N8	&kp N9	&kp N0	&kp MINUS
+&kp EQUAL	&kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&num_word	&kp RS(F10)	&kp N6	&kp N7	&kp N8	&kp N9	&kp N0	&kp MINUS
 &lt KEYPAD TAB	&kp Q	&kp W	&kp E	&kp R	&kp T	&kp LBRC	&kp RBRC	&kp Y	&kp U	&kp I	&kp O	&kp P	&lt KEYPAD BSLH
 &kp ESC	&kp A	&kp S	&kp D	&kp F	&kp G	&kp LBKT	&under_bslh	&kp H	&kp J	&kp K	&kp L	&kp SEMI	&kp SQT
 &smart_shft	&kp Z	&kp X	&kp C	&kp V	&kp B			&kp N	&kp M	&kp COMMA	&kp DOT	&kp FSLH	&mt RSHFT RPAR
-&to FN2	&kp GRAVE	&kp LS(INS)	&lt FN LEFT	&lt FN2 RIGHT					&lt FN2 UP	&lt FN DOWN	&kp LBKT	&kp RBKT	&caps_word
+&tog FN2	&kp GRAVE	&kp LS(INS)	&lt FN LEFT	&lt FN2 RIGHT					&lt FN2 UP	&lt FN DOWN	&kp LBKT	&kp RBKT	&caps_word
 				&kp TAB	&kp LALT				&kp RCTRL	&kp RGUI
 				&mqt LCTRL BSPC	&mqt MEH DEL	&kp HOME	&kp PG_UP	&mqt RALT RET	&kp SPACE
 						&kp END	&kp PG_DN
@@ -116,7 +116,7 @@
 
         fn {
             bindings = <
-                ___             &kp F1    &kp F2    &kp F3           &kp F4   &kp F5     ___            &kp F12   &kp F6    &kp F7    &kp F8    &kp F9      &kp F10   &kp F11
+                &kp PSCRN       &kp F1    &kp F2    &kp F3           &kp F4   &kp F5     ___            &kp F12   &kp F6    &kp F7    &kp F8    &kp F9      &kp F10   &kp F11
                 ___             ___       ___       ___              ___       ___       ___            ___       ___       &kp LA(LEFT)         &kp LA(F10)     &kp LA(RIGHT)       ___       ___
                 ___             ___       ___       ___              ___       ___       ___            ___       &kp LS(LA(LEFT)) &kp LC(PG_DN)      &kp LC(PG_UP)   &kp LS(LA(RIGHT)) ___       ___
                 ___             ___       ___       ___              ___       ___                                ___       ___              ___         &kp LC(W)       ___       ___
