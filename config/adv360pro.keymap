@@ -95,9 +95,9 @@
 &kp ESC	&kp A	&kp S	&kp D	&kp F	&kp G	&kp LBKT	&under_bslh	&kp H	&kp J	&kp K	&kp L	&kp SEMI	&kp SQT
 &smart_shft	&kp Z	&kp X	&kp C	&kp V	&kp B			&kp N	&kp M	&kp COMMA	&kp DOT	&kp FSLH	&mt RSHFT RPAR
 &tog FN2	&kp GRAVE	&kp LS(INS)	&lt FN LEFT	&lt FN2 RIGHT					&lt FN2 UP	&lt FN DOWN	&kp LBKT	&kp RBKT	&caps_word
-				&kp TAB	&kp LALT				&kp RCTRL	&kp RCTRL
+				&kp TAB	        &kp LALT				&kp RGUI	&kp RCTRL
 				&mqt LGUI BSPC	&mqt MEH DEL	&kp HOME	&kp PG_UP	&mqt RALT RET	&kp SPACE
-						&kp END	&kp PG_DN
+						                &kp END	        &kp PG_DN
         >;
     };
 
