@@ -17,6 +17,7 @@
 #define FN2 3
 #define MOD 4
 
+
 /* Mouse settings /*
 /*Both mouse movement and scrolling have independently configurable acceleration profiles with three parameters: delay before movement, time to max speed and the acceleration exponent.
 //The exponent is usually set to 0 for constant speed, 1 for uniform acceleration or 2 for uniform jerk. */
